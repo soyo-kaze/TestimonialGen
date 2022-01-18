@@ -1,0 +1,33 @@
+.hero__container {
+  display: flex;
+  height: 100vh;
+  padding-left: 10%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+}
+
+.hero__header {
+  font-size: 60px;
+  font-family: ubuntu;
+}
+
+.hero__subhead {
+  margin-top: 10px;
+  color: gray;
+  padding-left: 10px;
+  font-size: 17px;
+  font-family: ubuntu;
+  font-style: italic;
+}
+.testinomy {
+  padding: 0px 6px 0px 6px;
+  border-radius: 10px;
+  background-color: rgb(189, 17, 189);
+  color: white;
+}
