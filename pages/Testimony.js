@@ -8,7 +8,7 @@ const Testimony = () => {
         src={state.data ? state.data.image : ""}
         style={{ objectFit: "contain", height: "500px" }}
       />
-      <p>{state.data.name}</p>
+      <p>{state.data ? state.data.name : ""}</p>
     </div>
   );
 };
