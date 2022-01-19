@@ -1,11 +1,14 @@
 import Layout from "../components/Layout";
 import "../public/global.css";
+import { DataProvider } from "../components/dataContext";
 
 const myApp = ({ Component, pageProps }) => {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <DataProvider>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </DataProvider>
   );
 };
 
