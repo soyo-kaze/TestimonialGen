@@ -11,6 +11,9 @@ const Home = () => {
         <div className="hero__subhead">
           Dynamic Digital graphic testimony Generator{" "}
         </div>
+        <div className="hero__btn">
+          <button> Create Now</button>
+        </div>
       </div>
       <div className="hero__imgContainer">
         <Image

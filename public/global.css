@@ -1,9 +1,13 @@
 body {
   margin: 0px;
 }
+
+/* Hero container */
 .hero__container {
   display: flex;
   height: 85vh;
+  /* padding-top: 50px;
+  padding-bottom: 60px; */
   padding-left: 10%;
   justify-content: space-around;
   align-items: center;
@@ -44,6 +48,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/*Temporary navbar styling*/
 .nav__text {
   font-family: ubuntu;
   font-size: 20px;
@@ -54,6 +60,7 @@ body {
   border-bottom: 1px solid;
 }
 
+/*Temporary footer styling*/
 footer {
   font-family: ubuntu;
   font-size: 20px;
@@ -61,4 +68,36 @@ footer {
   display: flex;
   justify-content: center;
   border-top: 1px solid;
+}
+
+/* Create Now button styling and hover effect */
+.hero__btn {
+  margin-top: 40px;
+  padding-left: 20px;
+}
+.hero__btn > button {
+  border: 0px;
+  background-color: rgb(70, 90, 227);
+  color: white;
+  padding: 10px 15px 10px 15px;
+  font-family: ubuntu;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px 2px rgba(40, 65, 225, 0.3);
+  transition-duration: 200ms;
+}
+.hero__btn > button:hover {
+  /* transition-duration: 300ms; */
+  background-color: rgb(40, 65, 225);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* font-size: 22px; */
+  margin-top: -2px;
+  margin-bottom: -2px;
+  margin-left: -3px;
+  margin-right: -3px;
+  box-shadow: 7px 7px 20px 2px rgba(40, 65, 225, 0.5);
 }
