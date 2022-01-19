@@ -1,9 +1,12 @@
 import React from "react";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <div className="Nav">
-      <div className="nav__text">TestimonialGen</div>
+      <Link href="/">
+        <div className="nav__text">TestimonialGen</div>
+      </Link>
     </div>
   );
 };

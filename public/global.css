@@ -53,6 +53,7 @@ body {
 .nav__text {
   font-family: ubuntu;
   font-size: 20px;
+  cursor: pointer;
   /* font-weight: 600; */
 }
 .Nav {
@@ -100,4 +101,96 @@ footer {
   margin-left: -3px;
   margin-right: -3px;
   box-shadow: 7px 7px 20px 2px rgba(40, 65, 225, 0.5);
+}
+
+/* Form Styling*/
+.form__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 80vh; */
+  padding: 5% 10% 5% 10%;
+}
+.form {
+  display: flex;
+  border: 1px solid;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 5% 7% 5% 7%;
+  width: 80%;
+}
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.form__inputs > input,
+select {
+  border: 0px;
+  border-bottom: 1px solid rgba(40, 65, 225, 0.6);
+  padding: 5px 10px 2px 20px;
+  transition-duration: 300ms;
+  width: 300px;
+  height: 40px;
+  font-size: 15px;
+  font-family: ubuntu;
+  color: rgb(43, 43, 43);
+  background-color: white;
+}
+.form__inputs > input:focus,
+select:focus {
+  outline: 0px;
+  border-radius: 5px;
+  box-shadow: 0px 20px 20px 2px rgba(40, 65, 225, 0.2);
+  border-bottom-width: 2px;
+  margin-top: -1px;
+}
+.form__inputs > label {
+  padding-left: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: ubuntu;
+  font-weight: 600;
+}
+.form__two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.form__break {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-family: ubuntu;
+  font-weight: 600;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+.form__break > button {
+  border: 0px;
+  background-color: rgb(52, 165, 46);
+  color: white;
+  padding: 10px 15px 10px 15px;
+  font-family: ubuntu;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px 2px rgba(40, 225, 40, 0.3);
+  transition-duration: 200ms;
+  width: 200px;
+}
+.form__break > button:hover {
+  background-color: rgb(38, 118, 34);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* font-size: 22px; */
+  margin-top: -2px;
+  margin-bottom: -2px;
+  box-shadow: 7px 7px 20px 2px rgba(40, 225, 40, 0.5);
+  width: 220px;
 }
