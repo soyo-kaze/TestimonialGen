@@ -69,6 +69,9 @@ footer {
   display: flex;
   justify-content: center;
   border-top: 1px solid;
+  height: 100%;
+  /* height: 200px; */
+  background-color: burlywood;
 }
 
 /* Create Now button styling and hover effect */
@@ -79,19 +82,20 @@ footer {
 .hero__btn > button {
   border: 0px;
   background-color: rgb(70, 90, 227);
+  box-shadow: 5px 5px 20px 2px rgba(40, 65, 225, 0.3);
   color: white;
   padding: 10px 15px 10px 15px;
   font-family: ubuntu;
   font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 5px 5px 20px 2px rgba(40, 65, 225, 0.3);
   transition-duration: 200ms;
 }
 .hero__btn > button:hover {
   /* transition-duration: 300ms; */
-  background-color: rgb(40, 65, 225);
   padding-left: 18px;
+  background-color: rgb(40, 65, 225);
+  box-shadow: 7px 7px 20px 2px rgba(40, 65, 225, 0.5);
   padding-right: 18px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -100,7 +104,6 @@ footer {
   margin-bottom: -2px;
   margin-left: -3px;
   margin-right: -3px;
-  box-shadow: 7px 7px 20px 2px rgba(40, 65, 225, 0.5);
 }
 
 /* Form Styling*/
@@ -193,4 +196,52 @@ select:focus {
   margin-bottom: -2px;
   box-shadow: 7px 7px 20px 2px rgba(40, 225, 40, 0.5);
   width: 220px;
+}
+
+.testi__btns {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.testi__btns > a > button {
+  margin: 0px 20px 0px 20px;
+  border: 0px;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  font-family: ubuntu;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 200ms;
+  width: 200px;
+}
+.testi__btns > a:nth-child(1) > button {
+  background-color: rgb(52, 165, 46);
+  box-shadow: 5px 5px 20px 2px rgba(40, 225, 40, 0.3);
+}
+.testi__btns > a:nth-child(2) > button {
+  background-color: rgb(70, 90, 227);
+  box-shadow: 5px 5px 20px 2px rgba(40, 65, 225, 0.3);
+}
+.testi__btns > a > button:hover {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* font-size: 22px; */
+  margin-top: -2px;
+  margin-bottom: -2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 220px;
+}
+.testi__btns > a:nth-child(1) > button:hover {
+  background-color: rgb(38, 118, 34);
+  box-shadow: 7px 7px 20px 2px rgba(40, 225, 40, 0.5);
+}
+.testi__btns > a:nth-child(2) > button:hover {
+  background-color: rgb(40, 65, 225);
+  box-shadow: 7px 7px 20px 2px rgba(40, 65, 225, 0.5);
 }
