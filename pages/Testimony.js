@@ -1,6 +1,6 @@
 import { InfoProvider } from "../components/dataContext";
 import { useState, useEffect } from "react";
-import Link  from "next/link";
+import Link from "next/link";
 
 const Testimony = () => {
   const [state, dispatch] = InfoProvider();
@@ -27,9 +27,11 @@ const Testimony = () => {
         <a id="download" download="template.jpg" href="" disabled={isLoaded}>
           <button disabled={isLoaded}>Download</button>
         </a>
-        <Link href="/Form">
-          <button>Generate another</button>
-        </Link>
+        <a>
+          <Link href="/Form">
+            <button>Generate another</button>
+          </Link>
+        </a>
       </div>
     </div>
   );
