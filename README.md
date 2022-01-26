@@ -29,27 +29,19 @@ It all start with an email from our college's placement cell - [Training and Pla
 
   - Visit the site: https://testimonial-gen.vercel.app/
 
-    ![Screenshot 2022-01-26 at 13-02-36 TestimonialGen](.\Readme assets\Screenshot 2022-01-26 at 13-02-36 TestimonialGen.png)
+    <img src=".\Readme assets\Screenshot 2022-01-26 at 13-02-36 TestimonialGen.png"/>
 
 - ### Step 2: 
   - Click on create now:
 
   - Fill the form.
-
-    ![Screenshot 2022-01-26 at 13-04-42 Form](E:\Projects\TestimonialGen\Readme assets\Screenshot 2022-01-26 at 13-04-42 Form.png)
+  <img src=".\Readme assets\Screenshot 2022-01-26 at 13-04-42 Form.png"/>
 
 - ### Step 3:
 
   - Click Generate and **done**.
 
-![Screenshot 2022-01-26 at 13-05-45 https testimonial-gen vercel app](E:\Projects\TestimonialGen\Readme assets\Screenshot 2022-01-26 at 13-05-45 https testimonial-gen vercel app.png)
-
-
-
-**There you go, your testimony is generate in matter of seconds isn't it great?**
-
-**If you liked it do give a star, it cheers me up. :happy:** 
-
+<img src=".\Readme assets\Screenshot 2022-01-26 at 13-05-45 https testimonial-gen vercel app.png"/>
 
 
 ## Approach
@@ -67,3 +59,7 @@ Creating dynamic templates in html/css/js is easy but you can't download it as a
   - The **Canvas API** provides a means for drawing graphics via [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and the [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) [`<canvas>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas) element. Among other things, it can be used for animation, game  graphics, data visualization, photo manipulation, and real-time video  processing. (credit: [MDN web docs](https://developer.mozilla.org/en-US/))
 
   - Using this Canvas API and React context API for state management I rendered all the info - gathered from the form the user filled - onto the image rendered on a canvas component, **And Done!! dynamically generated graphic Achieved!** 👍.
+----
+
+> **There you go, your testimony is generate in matter of seconds isn't it great?
+If you liked it do give a star✨, it cheers me up. 😃** 
