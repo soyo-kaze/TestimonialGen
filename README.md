@@ -2,7 +2,7 @@
 
 # TestimonialGen 
 
-![GitHub top language](https://img.shields.io/github/languages/top/soyo-kaze/TestimonialGen)![GitHub](https://img.shields.io/github/license/soyo-kaze/TestimonialGen)![GitHub Repo stars](https://img.shields.io/github/stars/soyo-kaze/TestimonialGen)![GitHub commit activity](https://img.shields.io/github/commit-activity/w/soyo-kaze/TestimonialGen)
+![GitHub top language](https://img.shields.io/github/languages/top/soyo-kaze/TestimonialGen) ![GitHub](https://img.shields.io/github/license/soyo-kaze/TestimonialGen) ![GitHub Repo stars](https://img.shields.io/github/stars/soyo-kaze/TestimonialGen) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/soyo-kaze/TestimonialGen)
 
 Dynamic Digital graphic testimony Generator in NextJs.
 
