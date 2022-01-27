@@ -10,7 +10,6 @@ Dynamic Digital graphic testimony Generator in NextJs.
 
 - NextJS
 - ReactJS
-- TailwindCSS
 - Canvas API
 
 ## Why?
