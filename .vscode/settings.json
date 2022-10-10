@@ -1,0 +1,4 @@
+{
+    "js/ts.implicitProjectConfig.target": "ES6",
+    "reactSnippets.settings.languageScopes": "typescript,typescriptreact,javascript,javascriptreact"
+}
